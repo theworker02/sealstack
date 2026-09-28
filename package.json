@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/sealstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Seal list/stack set operations for shell-friendly data wrangling.",
+  "bin": {
+    "sealstack": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/sealstack.git"
+  },
+  "homepage": "https://theworker02.github.io/sealstack/",
+  "keywords": [
+    "seal",
+    "stack",
+    "list",
+    "cli",
+    "toolkit"
+  ]
+}
